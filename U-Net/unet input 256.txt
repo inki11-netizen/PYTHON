@@ -1,0 +1,554 @@
+/home/aivs/anaconda3/envs/KSM/bin/python /home/aivs/바탕화면/inki/unet.py 
+>>> Loading custom VGG weights from: /home/aivs/바탕화면/Iter_290000_acy_76.6.pth
+>>> Successfully loaded 58 layers.
+>>> Skipped 39 layers.
+Iter: 0, Loss: 3.2647, Time: 0.57324 sec
+Iter: 1000, Loss: 0.8172, Time: 281.35148 sec
+Iter: 2000, Loss: 0.4460, Time: 281.40952 sec
+Iter: 3000, Loss: 0.4901, Time: 281.30156 sec
+Iter: 4000, Loss: 0.5317, Time: 281.43792 sec
+Iter: 5000, Loss: 0.5027, Time: 281.42744 sec
+Iter: 6000, Loss: 0.4718, Time: 281.40294 sec
+Iter: 7000, Loss: 0.2873, Time: 281.44758 sec
+Iter: 8000, Loss: 0.4754, Time: 281.44164 sec
+Iter: 9000, Loss: 0.2935, Time: 281.52350 sec
+Iter: 10000, Loss: 0.2746, Time: 281.46360 sec
+
+>>> [Evaluation Start] Iter: 10000
+   [Image 1] 2007_003506
+     -> Pixel Acc: 77.75% | mIoU: 38.87%
+     -> Class-wise IoU:
+        - background  : 77.75%
+        - pottedplant : 0.00%
+------------------------------
+   [Image 2] 2010_001331
+     -> Pixel Acc: 97.67% | mIoU: 63.18%
+     -> Class-wise IoU:
+        - background  : 96.88%
+        - cat         : 92.66%
+------------------------------
+   [Image 3] 2009_000825
+     -> Pixel Acc: 77.50% | mIoU: 38.20%
+     -> Class-wise IoU:
+        - background  : 78.08%
+        - car         : 75.78%
+        - motorbike   : 25.09%
+        - person      : 12.05%
+------------------------------
+   [Image 4] 2010_003325
+     -> Pixel Acc: 76.18% | mIoU: 47.90%
+     -> Class-wise IoU:
+        - background  : 66.90%
+        - chair       : 34.76%
+        - diningtable : 0.00%
+        - person      : 89.92%
+------------------------------
+   [Image 5] 2009_004070
+     -> Pixel Acc: 99.20% | mIoU: 33.30%
+     -> Class-wise IoU:
+        - background  : 99.90%
+        - sheep       : 0.00%
+------------------------------
+>>> [TOTAL AVG] Iter: 10000
+    Batch Pixel Accuracy: 83.67%
+    Batch Mean IoU      : 37.27%
+    Images Saved to ./result/
+Iter: 11000, Loss: 0.2052, Time: 281.56942 sec
+Iter: 12000, Loss: 0.3315, Time: 281.43033 sec
+Iter: 13000, Loss: 0.2285, Time: 281.43926 sec
+Iter: 14000, Loss: 0.2469, Time: 281.46153 sec
+Iter: 15000, Loss: 0.2450, Time: 281.44671 sec
+Iter: 16000, Loss: 0.2262, Time: 281.44168 sec
+Iter: 17000, Loss: 0.1864, Time: 281.43630 sec
+Iter: 18000, Loss: 0.1991, Time: 281.44032 sec
+Iter: 19000, Loss: 0.2974, Time: 281.49759 sec
+Iter: 20000, Loss: 0.2558, Time: 281.46724 sec
+
+>>> [Evaluation Start] Iter: 20000
+   [Image 1] 2009_002928
+     -> Pixel Acc: 77.73% | mIoU: 36.49%
+     -> Class-wise IoU:
+        - background  : 75.79%
+        - bicycle     : 30.62%
+        - pottedplant : 3.06%
+------------------------------
+   [Image 2] 2008_000345
+     -> Pixel Acc: 94.91% | mIoU: 58.49%
+     -> Class-wise IoU:
+        - background  : 98.13%
+        - cat         : 77.33%
+------------------------------
+   [Image 3] 2009_003450
+     -> Pixel Acc: 90.00% | mIoU: 22.81%
+     -> Class-wise IoU:
+        - background  : 97.09%
+        - bird        : 39.78%
+------------------------------
+   [Image 4] 2011_002279
+     -> Pixel Acc: 98.23% | mIoU: 48.30%
+     -> Class-wise IoU:
+        - background  : 96.31%
+        - dog         : 96.87%
+------------------------------
+   [Image 5] 2008_005245
+     -> Pixel Acc: 86.42% | mIoU: 44.06%
+     -> Class-wise IoU:
+        - background  : 94.16%
+        - car         : 5.70%
+        - motorbike   : 43.26%
+        - person      : 77.20%
+------------------------------
+>>> [TOTAL AVG] Iter: 20000
+    Batch Pixel Accuracy: 86.02%
+    Batch Mean IoU      : 43.83%
+    Images Saved to ./result/
+Iter: 21000, Loss: 0.1747, Time: 281.57035 sec
+Iter: 22000, Loss: 0.2046, Time: 281.56553 sec
+Iter: 23000, Loss: 0.1781, Time: 281.58642 sec
+Iter: 24000, Loss: 0.1894, Time: 281.63317 sec
+Iter: 25000, Loss: 0.1857, Time: 281.63184 sec
+Iter: 26000, Loss: 0.1510, Time: 281.66726 sec
+Iter: 27000, Loss: 0.1947, Time: 281.62241 sec
+Iter: 28000, Loss: 0.1764, Time: 281.57173 sec
+Iter: 29000, Loss: 0.2382, Time: 281.65183 sec
+Iter: 30000, Loss: 0.1513, Time: 281.52121 sec
+
+>>> [Evaluation Start] Iter: 30000
+   [Image 1] 2007_006841
+     -> Pixel Acc: 87.88% | mIoU: 27.46%
+     -> Class-wise IoU:
+        - background  : 93.90%
+        - cow         : 50.00%
+        - person      : 48.32%
+------------------------------
+   [Image 2] 2009_000156
+     -> Pixel Acc: 98.75% | mIoU: 39.29%
+     -> Class-wise IoU:
+        - background  : 99.51%
+        - dog         : 57.64%
+------------------------------
+   [Image 3] 2008_006055
+     -> Pixel Acc: 96.85% | mIoU: 47.13%
+     -> Class-wise IoU:
+        - background  : 95.75%
+        - train       : 92.77%
+------------------------------
+   [Image 4] 2010_000318
+     -> Pixel Acc: 91.86% | mIoU: 29.48%
+     -> Class-wise IoU:
+        - background  : 89.99%
+        - tvmonitor   : 86.91%
+------------------------------
+   [Image 5] 2007_006348
+     -> Pixel Acc: 66.52% | mIoU: 17.23%
+     -> Class-wise IoU:
+        - background  : 82.90%
+        - chair       : 1.46%
+        - tvmonitor   : 53.46%
+------------------------------
+>>> [TOTAL AVG] Iter: 30000
+    Batch Pixel Accuracy: 88.27%
+    Batch Mean IoU      : 48.42%
+    Images Saved to ./result/
+Iter: 31000, Loss: 0.1394, Time: 281.47984 sec
+Iter: 32000, Loss: 0.1701, Time: 281.44104 sec
+Iter: 33000, Loss: 0.1611, Time: 281.46669 sec
+Iter: 34000, Loss: 0.1401, Time: 281.40592 sec
+Iter: 35000, Loss: 0.1534, Time: 281.40480 sec
+Iter: 36000, Loss: 0.1406, Time: 281.39649 sec
+Iter: 37000, Loss: 0.1562, Time: 281.41848 sec
+Iter: 38000, Loss: 0.1892, Time: 281.44038 sec
+Iter: 39000, Loss: 0.0992, Time: 281.44810 sec
+Iter: 40000, Loss: 0.1728, Time: 281.41705 sec
+
+>>> [Evaluation Start] Iter: 40000
+   [Image 1] 2010_004149
+     -> Pixel Acc: 66.60% | mIoU: 23.36%
+     -> Class-wise IoU:
+        - background  : 66.76%
+        - train       : 3.32%
+------------------------------
+   [Image 2] 2010_002251
+     -> Pixel Acc: 98.37% | mIoU: 56.11%
+     -> Class-wise IoU:
+        - background  : 98.80%
+        - motorbike   : 93.37%
+        - person      : 88.40%
+------------------------------
+   [Image 3] 2007_007810
+     -> Pixel Acc: 52.91% | mIoU: 23.18%
+     -> Class-wise IoU:
+        - background  : 16.36%
+        - diningtable : 41.60%
+        - person      : 81.15%
+------------------------------
+   [Image 4] 2008_002379
+     -> Pixel Acc: 56.98% | mIoU: 16.95%
+     -> Class-wise IoU:
+        - background  : 64.63%
+        - chair       : 27.19%
+        - diningtable : 0.00%
+        - pottedplant : 9.89%
+------------------------------
+   [Image 5] 2007_008430
+     -> Pixel Acc: 99.70% | mIoU: 66.27%
+     -> Class-wise IoU:
+        - background  : 99.58%
+        - person      : 99.24%
+------------------------------
+>>> [TOTAL AVG] Iter: 40000
+    Batch Pixel Accuracy: 86.26%
+    Batch Mean IoU      : 37.38%
+    Images Saved to ./result/
+Iter: 41000, Loss: 0.1060, Time: 281.56223 sec
+Iter: 42000, Loss: 0.1526, Time: 281.54101 sec
+Iter: 43000, Loss: 0.1928, Time: 281.63944 sec
+Iter: 44000, Loss: 0.1082, Time: 281.61632 sec
+Iter: 45000, Loss: 0.1280, Time: 281.56262 sec
+Iter: 46000, Loss: 0.1326, Time: 281.56939 sec
+Iter: 47000, Loss: 0.1914, Time: 281.69082 sec
+Iter: 48000, Loss: 0.1068, Time: 281.60922 sec
+Iter: 49000, Loss: 0.1472, Time: 281.56490 sec
+Iter: 50000, Loss: 0.0764, Time: 281.59235 sec
+
+>>> [Evaluation Start] Iter: 50000
+   [Image 1] 2008_002588
+     -> Pixel Acc: 91.28% | mIoU: 51.14%
+     -> Class-wise IoU:
+        - background  : 95.14%
+        - person      : 58.29%
+------------------------------
+   [Image 2] 2011_001984
+     -> Pixel Acc: 98.82% | mIoU: 65.53%
+     -> Class-wise IoU:
+        - background  : 98.42%
+        - dog         : 98.17%
+------------------------------
+   [Image 3] 2010_004063
+     -> Pixel Acc: 99.75% | mIoU: 95.91%
+     -> Class-wise IoU:
+        - background  : 99.74%
+        - aeroplane   : 92.07%
+------------------------------
+   [Image 4] 2010_001534
+     -> Pixel Acc: 80.70% | mIoU: 28.94%
+     -> Class-wise IoU:
+        - background  : 73.69%
+        - cat         : 70.99%
+------------------------------
+   [Image 5] 2008_002536
+     -> Pixel Acc: 96.21% | mIoU: 55.99%
+     -> Class-wise IoU:
+        - background  : 99.49%
+        - dog         : 26.90%
+        - sheep       : 97.58%
+------------------------------
+>>> [TOTAL AVG] Iter: 50000
+    Batch Pixel Accuracy: 89.96%
+    Batch Mean IoU      : 54.62%
+    Images Saved to ./result/
+Iter: 51000, Loss: 0.1408, Time: 281.66685 sec
+Iter: 52000, Loss: 0.1000, Time: 281.65681 sec
+Iter: 53000, Loss: 0.1273, Time: 281.63861 sec
+Iter: 54000, Loss: 0.0814, Time: 281.58664 sec
+Iter: 55000, Loss: 0.1490, Time: 281.66857 sec
+Iter: 56000, Loss: 0.2088, Time: 281.68726 sec
+Iter: 57000, Loss: 0.0922, Time: 281.68996 sec
+Iter: 58000, Loss: 0.1147, Time: 281.55359 sec
+Iter: 59000, Loss: 0.1389, Time: 281.60486 sec
+Iter: 60000, Loss: 0.2190, Time: 281.69389 sec
+
+>>> [Evaluation Start] Iter: 60000
+   [Image 1] 2008_002269
+     -> Pixel Acc: 79.77% | mIoU: 24.22%
+     -> Class-wise IoU:
+        - background  : 76.63%
+        - bicycle     : 44.46%
+------------------------------
+   [Image 2] 2008_002929
+     -> Pixel Acc: 73.02% | mIoU: 19.42%
+     -> Class-wise IoU:
+        - background  : 76.18%
+        - person      : 53.14%
+        - sofa        : 6.60%
+------------------------------
+   [Image 3] 2011_000953
+     -> Pixel Acc: 71.29% | mIoU: 26.04%
+     -> Class-wise IoU:
+        - background  : 63.57%
+        - bottle      : 0.00%
+        - diningtable : 0.01%
+        - person      : 92.65%
+------------------------------
+   [Image 4] 2010_003597
+     -> Pixel Acc: 81.22% | mIoU: 42.21%
+     -> Class-wise IoU:
+        - background  : 77.32%
+        - bottle      : 0.00%
+        - diningtable : 63.73%
+        - person      : 63.90%
+        - pottedplant : 37.94%
+        - sofa        : 52.55%
+------------------------------
+   [Image 5] 2010_001995
+     -> Pixel Acc: 93.44% | mIoU: 60.66%
+     -> Class-wise IoU:
+        - background  : 99.49%
+        - bird        : 82.50%
+------------------------------
+>>> [TOTAL AVG] Iter: 60000
+    Batch Pixel Accuracy: 83.69%
+    Batch Mean IoU      : 39.86%
+    Images Saved to ./result/
+Iter: 61000, Loss: 0.1484, Time: 281.71335 sec
+Iter: 62000, Loss: 0.1053, Time: 281.68980 sec
+Iter: 63000, Loss: 0.0863, Time: 281.70367 sec
+Iter: 64000, Loss: 0.0981, Time: 281.69387 sec
+Iter: 65000, Loss: 0.1171, Time: 281.68026 sec
+Iter: 66000, Loss: 0.1012, Time: 281.68344 sec
+Iter: 67000, Loss: 0.1363, Time: 281.66559 sec
+Iter: 68000, Loss: 0.1359, Time: 281.70058 sec
+Iter: 69000, Loss: 0.1013, Time: 281.57391 sec
+Iter: 70000, Loss: 0.1230, Time: 281.58408 sec
+
+>>> [Evaluation Start] Iter: 70000
+   [Image 1] 2011_002343
+     -> Pixel Acc: 72.61% | mIoU: 38.55%
+     -> Class-wise IoU:
+        - background  : 23.94%
+        - chair       : 45.95%
+        - person      : 84.32%
+------------------------------
+   [Image 2] 2008_002152
+     -> Pixel Acc: 89.72% | mIoU: 19.35%
+     -> Class-wise IoU:
+        - background  : 93.38%
+        - cat         : 61.42%
+------------------------------
+   [Image 3] 2009_000309
+     -> Pixel Acc: 81.37% | mIoU: 30.33%
+     -> Class-wise IoU:
+        - background  : 90.35%
+        - cow         : 3.77%
+        - person      : 87.85%
+------------------------------
+   [Image 4] 2009_001299
+     -> Pixel Acc: 83.73% | mIoU: 42.87%
+     -> Class-wise IoU:
+        - background  : 87.96%
+        - chair       : 49.05%
+        - person      : 77.31%
+------------------------------
+   [Image 5] 2007_005281
+     -> Pixel Acc: 98.67% | mIoU: 62.11%
+     -> Class-wise IoU:
+        - background  : 99.20%
+        - bicycle     : 68.97%
+        - person      : 80.26%
+------------------------------
+>>> [TOTAL AVG] Iter: 70000
+    Batch Pixel Accuracy: 87.59%
+    Batch Mean IoU      : 44.69%
+    Images Saved to ./result/
+Iter: 71000, Loss: 0.1386, Time: 281.66987 sec
+Iter: 72000, Loss: 0.1088, Time: 281.47823 sec
+Iter: 73000, Loss: 0.0917, Time: 281.45974 sec
+Iter: 74000, Loss: 0.1686, Time: 281.47603 sec
+Iter: 75000, Loss: 0.1150, Time: 281.77503 sec
+Iter: 76000, Loss: 0.1159, Time: 280.83376 sec
+Iter: 77000, Loss: 0.0961, Time: 280.83538 sec
+Iter: 78000, Loss: 0.0937, Time: 280.85245 sec
+Iter: 79000, Loss: 0.0875, Time: 280.82763 sec
+Iter: 80000, Loss: 0.1298, Time: 280.83347 sec
+
+>>> [Evaluation Start] Iter: 80000
+   [Image 1] 2010_004789
+     -> Pixel Acc: 99.43% | mIoU: 65.54%
+     -> Class-wise IoU:
+        - background  : 99.59%
+        - cow         : 97.04%
+------------------------------
+   [Image 2] 2009_004217
+     -> Pixel Acc: 95.99% | mIoU: 26.93%
+     -> Class-wise IoU:
+        - background  : 95.98%
+        - chair       : 11.73%
+------------------------------
+   [Image 3] 2008_007498
+     -> Pixel Acc: 86.79% | mIoU: 12.12%
+     -> Class-wise IoU:
+        - background  : 96.94%
+        - bird        : 0.00%
+------------------------------
+   [Image 4] 2007_002268
+     -> Pixel Acc: 59.28% | mIoU: 26.21%
+     -> Class-wise IoU:
+        - background  : 67.65%
+        - cat         : 0.00%
+        - dog         : 87.79%
+        - sofa        : 1.82%
+------------------------------
+   [Image 5] 2008_000271
+     -> Pixel Acc: 99.79% | mIoU: 99.35%
+     -> Class-wise IoU:
+        - background  : 99.74%
+        - person      : 98.95%
+------------------------------
+>>> [TOTAL AVG] Iter: 80000
+    Batch Pixel Accuracy: 87.29%
+    Batch Mean IoU      : 43.19%
+    Images Saved to ./result/
+Iter: 81000, Loss: 0.0724, Time: 280.93065 sec
+Iter: 82000, Loss: 0.1006, Time: 281.05316 sec
+Iter: 83000, Loss: 0.1615, Time: 281.07599 sec
+Iter: 84000, Loss: 0.1227, Time: 281.07545 sec
+Iter: 85000, Loss: 0.1088, Time: 281.04414 sec
+Iter: 86000, Loss: 0.0975, Time: 281.08274 sec
+Iter: 87000, Loss: 0.0919, Time: 281.07441 sec
+Iter: 88000, Loss: 0.1181, Time: 281.06052 sec
+Iter: 89000, Loss: 0.0818, Time: 281.06427 sec
+Iter: 90000, Loss: 0.0897, Time: 281.08492 sec
+
+>>> [Evaluation Start] Iter: 90000
+   [Image 1] 2007_008815
+     -> Pixel Acc: 97.79% | mIoU: 37.76%
+     -> Class-wise IoU:
+        - background  : 97.53%
+        - cat         : 91.26%
+------------------------------
+   [Image 2] 2009_002571
+     -> Pixel Acc: 66.28% | mIoU: 13.93%
+     -> Class-wise IoU:
+        - background  : 75.27%
+        - chair       : 7.88%
+        - diningtable : 0.43%
+        - pottedplant : 0.00%
+        - sofa        : 0.00%
+------------------------------
+   [Image 3] 2008_003886
+     -> Pixel Acc: 98.22% | mIoU: 61.78%
+     -> Class-wise IoU:
+        - background  : 97.98%
+        - boat        : 87.36%
+------------------------------
+   [Image 4] 2011_001341
+     -> Pixel Acc: 96.95% | mIoU: 62.91%
+     -> Class-wise IoU:
+        - background  : 95.59%
+        - bus         : 93.13%
+------------------------------
+   [Image 5] 2011_001614
+     -> Pixel Acc: 99.12% | mIoU: 65.40%
+     -> Class-wise IoU:
+        - background  : 98.80%
+        - train       : 97.41%
+------------------------------
+>>> [TOTAL AVG] Iter: 90000
+    Batch Pixel Accuracy: 87.60%
+    Batch Mean IoU      : 48.46%
+    Images Saved to ./result/
+Iter: 91000, Loss: 0.1455, Time: 281.07811 sec
+Iter: 92000, Loss: 0.0924, Time: 281.07141 sec
+Iter: 93000, Loss: 0.0763, Time: 280.97211 sec
+Iter: 94000, Loss: 0.1673, Time: 281.07963 sec
+Iter: 95000, Loss: 0.1590, Time: 281.06674 sec
+Iter: 96000, Loss: 0.1105, Time: 281.05836 sec
+Iter: 97000, Loss: 0.1543, Time: 281.02463 sec
+Iter: 98000, Loss: 0.0915, Time: 281.02995 sec
+Iter: 99000, Loss: 0.0761, Time: 281.04493 sec
+Iter: 100000, Loss: 0.1331, Time: 281.00200 sec
+
+>>> [Evaluation Start] Iter: 100000
+   [Image 1] 2008_003330
+     -> Pixel Acc: 95.05% | mIoU: 60.28%
+     -> Class-wise IoU:
+        - background  : 89.14%
+        - person      : 91.71%
+------------------------------
+   [Image 2] 2009_002265
+     -> Pixel Acc: 98.68% | mIoU: 95.91%
+     -> Class-wise IoU:
+        - background  : 98.37%
+        - train       : 93.44%
+------------------------------
+   [Image 3] 2007_001678
+     -> Pixel Acc: 90.93% | mIoU: 41.59%
+     -> Class-wise IoU:
+        - background  : 89.67%
+        - chair       : 0.00%
+        - person      : 28.42%
+        - tvmonitor   : 89.87%
+------------------------------
+   [Image 4] 2009_002594
+     -> Pixel Acc: 98.39% | mIoU: 48.20%
+     -> Class-wise IoU:
+        - background  : 99.43%
+        - bottle      : 45.17%
+------------------------------
+   [Image 5] 2007_008973
+     -> Pixel Acc: 92.47% | mIoU: 36.02%
+     -> Class-wise IoU:
+        - background  : 99.90%
+        - cow         : 44.19%
+------------------------------
+>>> [TOTAL AVG] Iter: 100000
+    Batch Pixel Accuracy: 91.27%
+    Batch Mean IoU      : 55.01%
+    Images Saved to ./result/
+Iter: 101000, Loss: 0.1416, Time: 281.03150 sec
+Iter: 102000, Loss: 0.1001, Time: 281.03562 sec
+Iter: 103000, Loss: 0.1413, Time: 281.02087 sec
+Iter: 104000, Loss: 0.0835, Time: 280.92747 sec
+Iter: 105000, Loss: 0.0808, Time: 280.91457 sec
+Iter: 106000, Loss: 0.0702, Time: 280.92936 sec
+Iter: 107000, Loss: 0.1344, Time: 280.94086 sec
+Iter: 108000, Loss: 0.1153, Time: 281.02122 sec
+Iter: 109000, Loss: 0.1470, Time: 281.01193 sec
+Iter: 110000, Loss: 0.0700, Time: 280.93192 sec
+
+>>> [Evaluation Start] Iter: 110000
+   [Image 1] 2011_001534
+     -> Pixel Acc: 86.82% | mIoU: 53.68%
+     -> Class-wise IoU:
+        - background  : 99.41%
+        - cat         : 61.63%
+------------------------------
+   [Image 2] 2010_003207
+     -> Pixel Acc: 98.36% | mIoU: 93.23%
+     -> Class-wise IoU:
+        - background  : 98.13%
+        - motorbike   : 88.32%
+------------------------------
+   [Image 3] 2009_002291
+     -> Pixel Acc: 99.41% | mIoU: 98.78%
+     -> Class-wise IoU:
+        - background  : 99.02%
+        - train       : 98.55%
+------------------------------
+   [Image 4] 2010_000160
+     -> Pixel Acc: 63.03% | mIoU: 21.25%
+     -> Class-wise IoU:
+        - background  : 56.47%
+        - car         : 49.77%
+------------------------------
+   [Image 5] 2011_000456
+     -> Pixel Acc: 98.62% | mIoU: 45.27%
+     -> Class-wise IoU:
+        - background  : 98.80%
+        - bird        : 82.26%
+------------------------------
+>>> [TOTAL AVG] Iter: 110000
+    Batch Pixel Accuracy: 86.11%
+    Batch Mean IoU      : 42.97%
+    Images Saved to ./result/
+Iter: 111000, Loss: 0.0793, Time: 280.83760 sec
+Iter: 112000, Loss: 0.1912, Time: 280.82685 sec
+Iter: 113000, Loss: 0.1556, Time: 280.81912 sec
+Iter: 114000, Loss: 0.1176, Time: 280.82401 sec
+Iter: 115000, Loss: 0.0944, Time: 280.81418 sec
+Iter: 116000, Loss: 0.0751, Time: 280.78601 sec
+Iter: 117000, Loss: 0.2521, Time: 280.81163 sec
+Iter: 118000, Loss: 0.0868, Time: 280.78951 sec
+Iter: 119000, Loss: 0.0824, Time: 280.78006 sec
+
+Process finished with exit code 0
