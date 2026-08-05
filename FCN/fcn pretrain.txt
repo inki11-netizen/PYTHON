@@ -1,0 +1,170 @@
+/home/aivs/anaconda3/envs/KSM/bin/python /home/aivs/바탕화면/inki/pretrain.py 
+>>> Loading custom VGG weights from: /home/aivs/바탕화면/Iter_290000_acy_76.6.pth
+>>> Successfully loaded 91 layers.
+>>> Skipped 6 layers (mismatched shape or missing keys).
+Iter: 0, Loss: 3.0471, Time: 0.59444 sec
+Iter: 1000, Loss: 1.0065, Time: 236.08176 sec
+Iter: 2000, Loss: 0.9418, Time: 236.10388 sec
+Iter: 3000, Loss: 0.7553, Time: 235.44815 sec
+Iter: 4000, Loss: 0.5642, Time: 235.51945 sec
+Iter: 5000, Loss: 0.4705, Time: 235.59327 sec
+Iter: 6000, Loss: 0.5230, Time: 235.51803 sec
+Iter: 7000, Loss: 0.4991, Time: 235.40942 sec
+Iter: 8000, Loss: 0.4504, Time: 235.43048 sec
+Iter: 9000, Loss: 0.4856, Time: 235.36597 sec
+Iter: 10000, Loss: 0.3935, Time: 235.43347 sec
+>>> [TEST] Iter: 10000
+    Pixel Accuracy: 84.25%
+    Mean IoU      : 33.07%
+    Images Saved to ./result_vis_real/
+Iter: 11000, Loss: 0.3762, Time: 235.58073 sec
+Iter: 12000, Loss: 0.3840, Time: 235.47373 sec
+Iter: 13000, Loss: 0.3366, Time: 235.45623 sec
+Iter: 14000, Loss: 0.3046, Time: 235.36208 sec
+Iter: 15000, Loss: 0.2623, Time: 235.42344 sec
+Iter: 16000, Loss: 0.2510, Time: 235.36430 sec
+Iter: 17000, Loss: 0.2568, Time: 235.43642 sec
+Iter: 18000, Loss: 0.2420, Time: 235.42332 sec
+Iter: 19000, Loss: 0.2703, Time: 235.50348 sec
+Iter: 20000, Loss: 0.2710, Time: 235.49245 sec
+>>> [TEST] Iter: 20000
+    Pixel Accuracy: 87.06%
+    Mean IoU      : 46.46%
+    Images Saved to ./result_vis_real/
+Iter: 21000, Loss: 0.2175, Time: 235.46968 sec
+Iter: 22000, Loss: 0.2322, Time: 235.49181 sec
+Iter: 23000, Loss: 0.2496, Time: 235.52578 sec
+Iter: 24000, Loss: 0.2525, Time: 235.49850 sec
+Iter: 25000, Loss: 0.2269, Time: 235.37815 sec
+Iter: 26000, Loss: 0.2390, Time: 235.46675 sec
+Iter: 27000, Loss: 0.2084, Time: 235.41341 sec
+Iter: 28000, Loss: 0.2327, Time: 235.41929 sec
+Iter: 29000, Loss: 0.1815, Time: 235.38418 sec
+Iter: 30000, Loss: 0.2539, Time: 235.39894 sec
+>>> [TEST] Iter: 30000
+    Pixel Accuracy: 88.06%
+    Mean IoU      : 50.59%
+    Images Saved to ./result_vis_real/
+Iter: 31000, Loss: 0.2047, Time: 235.37090 sec
+Iter: 32000, Loss: 0.1947, Time: 235.44479 sec
+Iter: 33000, Loss: 0.2679, Time: 235.39684 sec
+Iter: 34000, Loss: 0.2203, Time: 235.43812 sec
+Iter: 35000, Loss: 0.1812, Time: 235.44005 sec
+Iter: 36000, Loss: 0.1984, Time: 235.31886 sec
+Iter: 37000, Loss: 0.1868, Time: 235.45744 sec
+Iter: 38000, Loss: 0.1597, Time: 235.47308 sec
+Iter: 39000, Loss: 0.2244, Time: 235.46825 sec
+Iter: 40000, Loss: 0.2025, Time: 235.47121 sec
+>>> [TEST] Iter: 40000
+    Pixel Accuracy: 88.37%
+    Mean IoU      : 48.33%
+    Images Saved to ./result_vis_real/
+Iter: 41000, Loss: 0.2026, Time: 235.44978 sec
+Iter: 42000, Loss: 0.1800, Time: 235.39364 sec
+Iter: 43000, Loss: 0.1675, Time: 235.46962 sec
+Iter: 44000, Loss: 0.2244, Time: 235.40938 sec
+Iter: 45000, Loss: 0.1978, Time: 235.35941 sec
+Iter: 46000, Loss: 0.1557, Time: 235.35670 sec
+Iter: 47000, Loss: 0.1982, Time: 235.32606 sec
+Iter: 48000, Loss: 0.2439, Time: 235.37549 sec
+Iter: 49000, Loss: 0.1534, Time: 235.38588 sec
+Iter: 50000, Loss: 0.1614, Time: 235.49906 sec
+>>> [TEST] Iter: 50000
+    Pixel Accuracy: 85.18%
+    Mean IoU      : 46.04%
+    Images Saved to ./result_vis_real/
+Iter: 51000, Loss: 0.1626, Time: 235.49121 sec
+Iter: 52000, Loss: 0.1754, Time: 235.39259 sec
+Iter: 53000, Loss: 0.1592, Time: 235.40756 sec
+Iter: 54000, Loss: 0.2358, Time: 235.34406 sec
+Iter: 55000, Loss: 0.1375, Time: 235.37006 sec
+Iter: 56000, Loss: 0.2307, Time: 235.33320 sec
+Iter: 57000, Loss: 0.1474, Time: 235.65832 sec
+Iter: 58000, Loss: 0.1658, Time: 234.90699 sec
+Iter: 59000, Loss: 0.1843, Time: 234.58485 sec
+Iter: 60000, Loss: 0.1720, Time: 234.55121 sec
+>>> [TEST] Iter: 60000
+    Pixel Accuracy: 86.60%
+    Mean IoU      : 45.82%
+    Images Saved to ./result_vis_real/
+Iter: 61000, Loss: 0.1571, Time: 234.53903 sec
+Iter: 62000, Loss: 0.1761, Time: 234.64778 sec
+Iter: 63000, Loss: 0.2123, Time: 234.63517 sec
+Iter: 64000, Loss: 0.1849, Time: 234.56861 sec
+Iter: 65000, Loss: 0.2003, Time: 234.54904 sec
+Iter: 66000, Loss: 0.1509, Time: 234.59006 sec
+Iter: 67000, Loss: 0.1328, Time: 234.61472 sec
+Iter: 68000, Loss: 0.1591, Time: 234.37985 sec
+Iter: 69000, Loss: 0.1304, Time: 234.56232 sec
+Iter: 70000, Loss: 0.1624, Time: 234.59035 sec
+>>> [TEST] Iter: 70000
+    Pixel Accuracy: 87.62%
+    Mean IoU      : 41.16%
+    Images Saved to ./result_vis_real/
+Iter: 71000, Loss: 0.1522, Time: 234.53296 sec
+Iter: 72000, Loss: 0.1596, Time: 234.60366 sec
+Iter: 73000, Loss: 0.1883, Time: 234.55476 sec
+Iter: 74000, Loss: 0.1416, Time: 234.57824 sec
+Iter: 75000, Loss: 0.1594, Time: 234.57910 sec
+Iter: 76000, Loss: 0.1527, Time: 234.53964 sec
+Iter: 77000, Loss: 0.1386, Time: 234.60858 sec
+Iter: 78000, Loss: 0.2706, Time: 234.62655 sec
+Iter: 79000, Loss: 0.1378, Time: 234.55432 sec
+Iter: 80000, Loss: 0.1705, Time: 234.49341 sec
+>>> [TEST] Iter: 80000
+    Pixel Accuracy: 85.44%
+    Mean IoU      : 42.16%
+    Images Saved to ./result_vis_real/
+Iter: 81000, Loss: 0.2163, Time: 234.53056 sec
+Iter: 82000, Loss: 0.1528, Time: 234.54089 sec
+Iter: 83000, Loss: 0.1521, Time: 234.56632 sec
+Iter: 84000, Loss: 0.1430, Time: 234.56344 sec
+Iter: 85000, Loss: 0.1502, Time: 234.74042 sec
+Iter: 86000, Loss: 0.1510, Time: 234.56518 sec
+Iter: 87000, Loss: 0.1756, Time: 234.60264 sec
+Iter: 88000, Loss: 0.1705, Time: 234.55876 sec
+Iter: 89000, Loss: 0.1747, Time: 234.53147 sec
+Iter: 90000, Loss: 0.3450, Time: 234.63651 sec
+>>> [TEST] Iter: 90000
+    Pixel Accuracy: 85.51%
+    Mean IoU      : 39.96%
+    Images Saved to ./result_vis_real/
+Iter: 91000, Loss: 0.1619, Time: 234.64016 sec
+Iter: 92000, Loss: 0.1392, Time: 234.61923 sec
+Iter: 93000, Loss: 0.2224, Time: 234.50568 sec
+Iter: 94000, Loss: 0.1492, Time: 234.55225 sec
+Iter: 95000, Loss: 0.1746, Time: 234.52074 sec
+Iter: 96000, Loss: 0.1500, Time: 234.53089 sec
+Iter: 97000, Loss: 0.1828, Time: 234.59629 sec
+Iter: 98000, Loss: 0.1434, Time: 234.57623 sec
+Iter: 99000, Loss: 0.1528, Time: 234.56229 sec
+Iter: 100000, Loss: 0.1704, Time: 234.57036 sec
+>>> [TEST] Iter: 100000
+    Pixel Accuracy: 87.68%
+    Mean IoU      : 44.98%
+    Images Saved to ./result_vis_real/
+Iter: 101000, Loss: 0.1279, Time: 234.62156 sec
+Iter: 102000, Loss: 0.1675, Time: 234.59946 sec
+Iter: 103000, Loss: 0.1412, Time: 234.58747 sec
+Iter: 104000, Loss: 0.2219, Time: 234.63814 sec
+Iter: 105000, Loss: 0.1388, Time: 234.60719 sec
+Iter: 106000, Loss: 0.1357, Time: 234.59513 sec
+Iter: 107000, Loss: 0.1537, Time: 234.56342 sec
+Iter: 108000, Loss: 0.1238, Time: 234.54571 sec
+Iter: 109000, Loss: 0.2125, Time: 234.57176 sec
+Iter: 110000, Loss: 0.1706, Time: 234.61153 sec
+>>> [TEST] Iter: 110000
+    Pixel Accuracy: 89.60%
+    Mean IoU      : 51.74%
+    Images Saved to ./result_vis_real/
+Iter: 111000, Loss: 0.2160, Time: 234.58472 sec
+Iter: 112000, Loss: 0.1312, Time: 234.53953 sec
+Iter: 113000, Loss: 0.1424, Time: 234.53745 sec
+Iter: 114000, Loss: 0.1333, Time: 234.49120 sec
+Iter: 115000, Loss: 0.1583, Time: 234.47378 sec
+Iter: 116000, Loss: 0.1042, Time: 234.47253 sec
+Iter: 117000, Loss: 0.3618, Time: 234.53528 sec
+Iter: 118000, Loss: 0.1323, Time: 234.50073 sec
+Iter: 119000, Loss: 0.1401, Time: 234.50442 sec
+
+Process finished with exit code 0
